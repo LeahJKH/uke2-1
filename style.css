@@ -4,24 +4,34 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(68, 68, 68);
 }
-#main-text {
-    font-size: 30px;
-    font-weight: 400;
-    margin: 0px 20px 10px 50px;
-
+#b-s-h {
+    color: rgb(145, 229, 19);
 }
 header {
-    background-color: rgb(166, 166, 166);
-    padding: 25px;
-    border-bottom: 7px #38ee06 double;
-    border-radius:  0 50px 50px 0;
+    background-color: rgb(20, 20, 20);
+    color: rgb(234, 232, 232);
+    padding: 50px 0px 15px 25px;
+    border-bottom: 10px rgb(145, 229, 19) double ;
+    border-radius: 0px 25px 75px 0px;
     width: 90%;
-}
-#uke-h {
-    color: aqua;
+    box-shadow: 0px 20px 5px rgb(88, 106, 61);
 }
 main {
-    color: rgb(230, 230, 230);
+    color: rgb(234, 232, 232);
+    padding: 25px;
+}
+h1 {
+    font-weight:300;
+    font-style: italic;
+    text-transform: uppercase;
+}
+p{
+    text-indent: 10px;
+    text-shadow: -3px -1px 2px rgb(145, 229, 19);
+    word-spacing: 2px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
 }
